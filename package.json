@@ -1,0 +1,36 @@
+{
+  "name": "8-advice-generator",
+  "version": "1.0.0",
+  "description": "My solution to Frontend Mentor's advice generator challenge.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "buildDev": "webpack --config webpack.dev.js",
+    "start": "webpack serve --open --config webpack.dev.js"
+  },
+  "author": "Omar M. Attia",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-transform-react-jsx": "^7.17.3",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "autoprefixer": "^10.4.4",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss-custom-properties": "^12.1.5",
+    "postcss-loader": "^6.2.1",
+    "tailwindcss": "^3.0.23",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "preact": "^10.6.6"
+  }
+}
