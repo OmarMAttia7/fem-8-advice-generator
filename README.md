@@ -41,7 +41,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Tailwind CSS](https://styled-components.com/) - CSS framework
+- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
 - JS Fetch API
 
 
