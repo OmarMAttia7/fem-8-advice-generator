@@ -36,7 +36,7 @@ class App extends Component {
           <div className="bg-divider-mobile w-full h-4 md:bg-divider-desktop bg-no-repeat bg-center mb-6"></div>
           <button
            onClick={this.changeAdvice} className="bg-green p-4 rounded-full absolute -bottom-6 left-0 right-0 m-auto
-          hover:shadow-[0_0_20px_hsl(150_100%_66%)] focus:outline-4 focus:outline-[#e6bf42] focus:outline"><img src={diceIcon} /></button>
+          hover:shadow-[0_0_20px_hsl(150_100%_66%)] focus:outline-4 focus:outline-[#e6bf42] focus:outline"><img src={diceIcon} alt="dice icon" /><span className="sr-only">Change Advice</span></button>
         </main>
       </>
     );
